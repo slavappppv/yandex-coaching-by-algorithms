@@ -36,7 +36,7 @@ public class Main {
                     }
                 }
             }
-            if (openBrackets.isEmpty() == false) {
+            if (!openBrackets.isEmpty()) {
                 check = false;
             }
             if (check) {

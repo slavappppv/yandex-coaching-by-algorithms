@@ -22,11 +22,11 @@ public class FindNearMinRight {
                 }
                 citiesInSearch.push(pair);
             }
-            for (int i = 0; i < resultsOfRelocation.length; ++i) {
-                if (resultsOfRelocation[i] == 0) {
+            for (int j : resultsOfRelocation) {
+                if (j == 0) {
                     System.out.print("-1 ");
                 } else {
-                    System.out.print(resultsOfRelocation[i] + " ");
+                    System.out.print(j + " ");
                 }
             }
         }

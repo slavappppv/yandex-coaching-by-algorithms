@@ -9,7 +9,7 @@ public class FindMinOnSegment {
     public static void findMinOnSegment() {
         try (BufferedReader reader = new BufferedReader(new FileReader("input.txt"))) {
             String[] lens = reader.readLine().split(" ");
-            ArrayDeque<Integer> dequeOfNums = new ArrayDeque<Integer>();
+            ArrayDeque<Integer> dequeOfNums = new ArrayDeque<>();
             String[] nums = reader.readLine().split(" ");
             for (int i = 0; i < Integer.parseInt(lens[0]); ++i) {
                 if (dequeOfNums.isEmpty()) {
